@@ -35,7 +35,7 @@ const projects = [
         image: "/projects/Project4.png",
         tags: ["React.JS", "Tailwind CSS", "HTML 5", "CSS 3"],
         link: "#",
-        gitHubLink: "#",
+        gitHubLink: "https://github.com/rohan2chitodkar/Rohan-s-Portfolio",
     },
     {
         id: 5,
