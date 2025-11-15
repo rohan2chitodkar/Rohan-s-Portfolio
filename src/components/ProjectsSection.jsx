@@ -6,23 +6,23 @@ const projects = [
         title: "ClggDhundo Educational Website",
         description: "Developed ClggDhundo, an educational website built with HTML, CSS, and JavaScript that enables users to easily search and explore categorized colleges through a responsive and interactive interface.",
         image: "/projects/Project1.png",
-        tags: ["HTML", "CSS", "JavaScript"],
+        tags: ["HTML 5", "CSS 3", "JavaScript"],
         link: "https://clgdhundo.netlify.app/",
         gitHubLink: "https://github.com/rohan2chitodkar/clgdhundo.github.io/tree/main/clgdhundo.github.io-main",
     },
     {
         id: 2,
         title: "DineTech Management System",
-        description: "Created a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and experience with a modern and responsive design.",
+        description: "Built a DineTech Management System for food sales tracking and table bookings, using HTML, CSS, JavaScript, MySQL, and Java for smooth frontend, backend, and data management.",
         image: "/projects/Project2.png",
-        tags: ["React", "Tailwind CSS"],
+        tags: ["HTML 5", "CSS 3", "Javascript", "Java", "MySQL"],
         link: "#",
         gitHubLink: "#",
     },
     {
         id: 3,
         title: "Service360",
-        description: "Built WeatherNow, a weather application using React Native and OpenWeatherMap API that provides real-time weather updates and forecasts with an intuitive user interface.",
+        description: "Created a responsive Home-Services website with service browsing, booking, filtering, and a JavaScript powered cart using localStorage for smooth and user-friendly interactions.",
         image: "/projects/Project3.png",
         tags: ["Javascript", "HTML", "CSS"],
         link: "https://service360.netlify.app/",
@@ -31,7 +31,7 @@ const projects = [
     {
         id: 4,
         title: "Personal Portfolio Website",
-        description: "Created a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and experience with a modern and responsive design.",
+        description: "Created a personal Portfolio website using React.JS and Tailwind CSS to showcase Projects, Skills with a modern and responsive design.",
         image: "/projects/Project4.png",
         tags: ["React.JS", "Tailwind CSS", "HTML 5", "CSS 3"],
         link: "https://rohanswebsite.netlify.app/",
@@ -39,10 +39,10 @@ const projects = [
     },
     {
         id: 5,
-        title: "MovieFinder App",
-        description: "Developed MovieFinder, a movie search application using React and the OMDB API that allows users to search for movies, view details, and manage a favorites list with a sleek user interface.",
+        title: "CineStacks - Movie Library Website",
+        description: "Developed CineStacks, a responsive React.js movie library using the OMDB API for real-time movie search, with Tailwind CSS styling and watchlist management for a seamless user experience.",
         image: "/projects/Project5.png",
-        tags: ["React", "OMDB API", "CSS"],
+        tags: ["React.JS", "OMDB API", "CSS 3"],
         link: "https://cinestacks.netlify.app/",
         gitHubLink: "https://github.com/rohan2chitodkar/movieLibraryProject",
     },
@@ -59,7 +59,7 @@ export const ProjectsSection = () => {
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Here are some of the projects I've worked on recently. 
+                Here are some of the projects I have worked on recently. 
                 Click on any project to learn more about it.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

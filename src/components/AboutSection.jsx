@@ -63,8 +63,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Frontend Developer</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with modern 
-                    frameworks.
+                    Creating Responsive Websites and web applications with modern 
+                    Frameworks.
                   </p>
                 </div>
               </div>  
@@ -77,8 +77,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Full Stack Developer</h4>
                   <p className="text-muted-foreground">
-                    Designing and developing complete web applications with frontend 
-                    and backend technologies.
+                    Designing and Developing complete web applications with Frontend 
+                    and Backend Technologies.
                   </p>
                 </div>
               </div>
