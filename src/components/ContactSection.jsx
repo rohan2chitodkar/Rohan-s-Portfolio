@@ -1,7 +1,10 @@
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import { Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+import { BsInstagram, BsSnapchat } from "react-icons/bs";
+import { LuFacebook } from "react-icons/lu";
+import { FiLinkedin } from "react-icons/fi";
 
 export const ContactSection = () => {
     const {toast} = useToast();
@@ -34,7 +37,8 @@ export const ContactSection = () => {
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
                     Have a project in mind or just want to say hello? 
                     Feel free to reach out via email or connect on social media. 
-                    I'm always open to discussing new opportunities and collaborations.
+                    As a fresher, I'm always excited to learn, collaborate, and 
+                    explore new opportunities to grow in the tech world.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="space-y-8">
@@ -90,13 +94,16 @@ export const ContactSection = () => {
                             <h4 className="font-medium mb-4"> Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
                                 <a href="https://www.linkedin.com/in/rohan-chitodkar-83b16122a/" target="_blank">
-                                    <Linkedin></Linkedin>
+                                    <FiLinkedin size={26}></FiLinkedin>
                                 </a>
-                                <a href="https://www.instagram.com/itsrohanchitodkar" target="_blank">
-                                    <Instagram></Instagram>
+                                <a href="https://www.instagram.com/itsrohanchitodkar/" target="_blank">
+                                    <BsInstagram size={26}></BsInstagram>
                                 </a>
-                                <a href="#" target="_blank">
-                                    <Facebook></Facebook>
+                                <a href="https://www.facebook.com/rohan.chitodkar/" target="_blank">
+                                    <LuFacebook size={26}></LuFacebook>
+                                </a>
+                                <a href="https://www.facebook.com/rohan.chitodkar/" target="_blank">
+                                    <BsSnapchat size={26}></BsSnapchat>
                                 </a>
                             </div>
                         </div>
@@ -173,7 +180,6 @@ export const ContactSection = () => {
                                 <Send size={16}></Send>
                             </button>
                         </form>
-
                     </div>
                 </div>
             </div>
